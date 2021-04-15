@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Notice this changed from render() to hydrate()!!
+// if you run the clientside version, notice the console error.
 ReactDOM.hydrate(
   <React.StrictMode>
     <App />
